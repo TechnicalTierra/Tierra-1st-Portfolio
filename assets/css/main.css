@@ -1545,6 +1545,19 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+/* hover image overlay */
+	.transparent-overlay {
+
+	}
+	.text-overly {
+
+	}
+	.portfolio-title {
+		background-color: ;
+		color: #000;
+	}
+
+	
 
 /* Button */
 
@@ -1743,7 +1756,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: 	#FAEDCB; /* nav link icon colors */
+			color: #FFEEE1; /* nav link icon colors */
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -1772,7 +1785,7 @@ input, select, textarea {
 				left: 50%;
 				bottom: -0.75em;
 				margin-left: -0.5em;
-				border-bottom: solid 0em 	#FAEDCB;
+				border-bottom: solid 0em #FFEEE1;
 				border-left: solid 0.5em transparent;
 				border-right: solid 0.5em transparent;
 				-moz-transition: border-bottom-width .25s ease-in-out;
@@ -1785,8 +1798,8 @@ input, select, textarea {
 			 #nav a span { 
 				display: block;
 				position: absolute;
-				background: #FAEDCB;  
-				color: rgba(255, 255, 255, 0.65);
+				background: #000;  
+				color: white;
 				top: -2.75em;
 				font-size: 0.3em;
 				height: 2.25em;
@@ -1808,7 +1821,7 @@ input, select, textarea {
 					bottom: -0.4em;
 					left: 50%;
 					margin-left: -0.6em;
-					border-top: solid 0.6em lightgrey; 
+					border-top: solid 0.6em #000; 
 					border-left: solid 0.6em transparent;
 					border-right: solid 0.6em transparent;
 				}
@@ -1907,13 +1920,13 @@ input, select, textarea {
 
 		}
 
-/* Main */
+/* Main / Profile home */
 
 	#main {
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		background: #FAEDCB; /* background color */
+		background: #FFEEE1; /* background color */
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -2016,7 +2029,7 @@ input, select, textarea {
 						height: 2.75em;
 						background: #000;
 						background: rgba(0, 0, 0, 0.75);
-						color: #FAEDCB; /* arrow */
+						color: #FFEEE1; /* arrow */
 						text-align: center;
 						line-height: 2.75em;
 						font-size: 1.5em;
@@ -2126,7 +2139,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #FAEDCB;
+				color: #FFEEE1;
 			}
 
 		#footer .copyright {
