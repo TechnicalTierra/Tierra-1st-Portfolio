@@ -324,12 +324,132 @@ input, select, textarea {
 }
 	.portfolio-title {
 		text-align: center;
-		font-size: 1em;
+		font-size: 1rem;
 	}
 
 		.portfolio-info {
 			text-align: center; 
 		}
+
+		.portfolio-details {
+			font-size: 0.85rem;
+			color: grey;
+		}
+
+	/* Portfolio Image Overlay*/	
+		.portfolioImageOverlayContainer {
+			position: relative;
+			width: 50%;
+		}
+
+		.portfolioImageOverlayImage {
+			opacity: 1;
+			display: block;
+			width: 50%;
+			height: auto;
+			transition: .5s ease;
+			backface-visibility: hidden;
+		}
+		
+		.portfolioImageOverlayMiddle {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 60%;
+			/* transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%); */
+			text-align: center;
+		}
+		
+		.portfolioImageOverlayContainer:hover .portfolioImageOverlayImage {
+			opacity: 0.3;
+		}
+		
+		.portfolioImageOverlayContainer:hover .portfolioImageOverlayImageMiddle {
+			opacity: 1;
+		}
+		
+		.portfolioImageOverlayText1 {
+			background-color: #4CAF50;
+			color: white;
+			font-size: 0.75rem;
+			padding: 0.5rem 1rem;
+			text-align: center;
+		}
+		/* .portfolioImageOverlayText2 {
+			background-color: #4CAF50;
+			color: white;
+			font-size: 0.75rem;
+			padding: 1rem 2rem;
+			text-align: center;
+		} */
+		
+
+		/* #responsiveDiv {
+			margin: auto;
+			padding: 0.25rem 0.25rem;
+			text-align: center;
+			background-color: yellow;
+		}
+		#responsiveParagraph {
+			font-size: 0.75rem;
+		} */
+
+
+	/* */
+	.containerOverlay {
+		position: relative;
+		width: 50%;
+	  }
+	  
+	.imageOverlay {
+		opacity: 1;
+		display: block;
+		width: 100%;
+		height: auto;
+		transition: .5s ease;
+		backface-visibility: hidden;
+	  }
+	  
+	.middleOverlay {
+		transition: .5s ease;
+		opacity: 0;
+		position: absolute;
+		top: 34%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		text-align: center;
+	  }
+	  
+	.containerOverlay:hover .imageOverlay {
+		opacity: 0.3;
+	  }
+	  
+	.containerOverlay:hover .middleOverlay {
+		opacity: 1;
+	  }
+	.text1 {
+		background-color: #9ccbd3;
+		color: white;
+		font-size: 1rem;
+		padding: 0.05rem 0.5rem;
+		margin-bottom: 0.3rem;
+		border-radius: 50px;
+	  }
+
+	.text2 {
+		background-color: #be9dda;
+		color: white;
+		font-size: 1rem;
+		padding: 0.05rem 0.5rem;
+		border-radius: 50px;
+	  }
+
+	a:link, a:hover, a:active {
+		text-decoration: none;
+	}
 
 
 		@media screen and (max-width: 1680px) {
@@ -1311,6 +1431,7 @@ input, select, textarea {
 						}
 
 		}
+	
 
 /* Basic */
 
